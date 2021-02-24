@@ -21,3 +21,9 @@ Sensor to check the status of [Postmark](https://status.postmarkapp.com/), a tra
 ## SNMP Windows Process
 ### check-snmpprocess.ps1 & lookup-snmpprocess.ovl
 Sensor to check if a given process is running in Windows, using SNMP compared to the built-in sensor that uses WMI.
+
+Parameters
+* IP - the IP address of the target. Useful with %host placeholder
+* OID - the OID start for all Windows processes. Static at "1.3.6.1.2.1.25.4.2.1.2"
+* Community - community string of the target
+* process - process name to monitor
