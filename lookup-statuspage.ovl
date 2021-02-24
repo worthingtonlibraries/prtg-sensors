@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueLookup id="statuspage" desiredValue="0" undefinedState="Error" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="PaeValueLookup.xsd">
+ <Lookups>
+         <SingleInt state="Ok" value="0">Operational</SingleInt>
+         <SingleInt state="Error" value="1">Partial Outage</SingleInt>
+		 <SingleInt state="Error" value="2">Major Outage</SingleInt>
+		 <SingleInt state="Warning" value="3">Degraded Performance</SingleInt>
+		 <SingleInt state="Warning" value="4">Under Maintenance</SingleInt>
+ </Lookups>
+</ValueLookup>
