@@ -3,7 +3,10 @@ Custom sensors and lookups for PRTG Network Monitor
 
 ## Statuspage.io
 #### check-statuspage.ps1 & lookup-statuspage.ovl
-Sensor to check the status of any statuspage.io page and create channels for each object. Just need to pass in the ID. ID can be found by visiting the statuspage.io URL + /API. 
+Sensor to check the status of any statuspage.io page and create channels for each object. 
+
+Parameters
+* ID - ID of the statuspage to monitor. ID can be found by visiting the statuspage.io URL + /API, see below for examples.
 
 Some sample pages/IDs:
 
