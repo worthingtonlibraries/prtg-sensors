@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueLookup id="postmark" desiredValue="0" undefinedState="Error" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="PaeValueLookup.xsd">
+ <Lookups>
+         <SingleInt state="Ok" value="0">Up</SingleInt>
+         <SingleInt state="Warning" value="1">Maintenance</SingleInt>
+		 <SingleInt state="Warning" value="2">Delay</SingleInt>
+		 <SingleInt state="Warning" value="3">Degraded</SingleInt>
+		 <SingleInt state="Error" value="4">Down</SingleInt>
+ </Lookups>
+</ValueLookup>
