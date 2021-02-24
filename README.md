@@ -1,9 +1,9 @@
 # PRTG Sensors
-Custom sensors and lookups for PRTG Network Monitor
+Custom sensors and lookups for [PRTG Network Monitor](https://www.paessler.com/prtg)
 
 ## Statuspage.io
 #### check-statuspage.ps1 & lookup-statuspage.ovl
-Sensor to check the status of any statuspage.io page and create channels for each object. 
+Sensor to check the status of any [statuspage.io](https://www.atlassian.com/software/statuspage) page and create channels for each object. 
 
 Parameters
 * ID - ID of the statuspage to monitor. ID can be found by visiting the statuspage.io URL + /API, see below for examples.
