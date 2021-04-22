@@ -30,3 +30,9 @@ Parameters
 * OID - the OID start for all Windows processes. Static at "1.3.6.1.2.1.25.4.2.1.2".
 * Community - community string of the target.
 * Process - process name to monitor.
+
+
+## HP ProCurve
+#### check-HPProcurve.ps1
+Sensor to monitor status/health of an HP ProCurve network switch. Use lookup provided by PRTG in their [official sensor](https://kb.paessler.com/en/topic/73833). 
+Inspired by PRTG Official [SNMP Advanced sensor](https://kb.paessler.com/en/topic/73833), but adds PoE wattage monitoring. Checks if there is a "total" power supply size for up to 4 power supplies and displays their usage accordingly. Set your own limits based on total power supply size. 1 switch with 1 power supply, 1 switch with redundant power supplies, 2-4 switches (in a stack) with 1 power supply each, 2 switches (in a stack) with redundant power supplies. 
