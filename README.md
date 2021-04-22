@@ -35,3 +35,7 @@ Parameters
 ## HP ProCurve
 #### check-HPProcurve.ps1
 Sensor to monitor status/health of an HP ProCurve network switch. Uses lookup provided & inspired by PRTG in their [official sensor](https://kb.paessler.com/en/topic/73833), but adds PoE wattage monitoring. Checks if there is a "total" power supply size for up to 4 power supplies and displays their usage accordingly. Set your own limits based on total power supply size. 1 switch with 1 power supply, 1 switch with redundant power supplies, 2-4 switches (in a stack) with 1 power supply each, 2 switches (in a stack) with redundant power supplies. 
+
+Parameters
+* IP - the IP address of the target. Useful with %host placeholder.
+* Community - community string of the target.
